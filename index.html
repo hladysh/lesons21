@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        
+        <style>
+            .container {
+            width: 300px;
+            height: 300px;
+            background-color: #000;
+            position: relative;
+            margin: 200px auto;
+            }
+            .fly_box {
+                width: 200px;
+                height: 100px;
+                color: #fff;
+                border-radius: 30px;
+                background-color: blue;
+            }
+            .fly_box_text {
+            text-align: center;
+            position: relative;
+            padding-top: 30px;
+            }
+            .main {
+                background-image: url(1.jpg) ; 
+                width: 100%;
+                height: 100%;
+                min-height: 700px;
+                z-index: 999;
+                position: fixed;
+                
+            }
+            .land  img{
+                position: absolute;
+                width: 500px;
+                height: 500px;
+                left: 200px;
+                top: 100px;
+                z-index: 33;
+            }
+            .moon img {
+                position: absolute;
+                width: 150px;
+                height: 150px;
+                margin-left: 50px;
+                margin-top: 300px;
+                z-index: 22;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!--1-->
+        <!--<div class="container"></div>-->
+        <!--2-->
+        <!--<div class="fly_box">-->
+        <!--    <p class="fly_box_text">Some text </p>-->
+        <!--</div>-->
+        
+        <!--3-->
+        
+        <div class="main">
+            <div class="land">
+                <img src="2.png"></img>
+            </div>
+            <div class="moon">
+                 <img src="3.png"></img>
+            </div>
+           
+            
+        </div>            
+        
+        
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script>
+        //   $( document ).ready(function(){
+        //         $(".container").animate({
+        //             marginTop: "150",
+        //             height: "400",
+        //             width: "400",
+        //             opacity: 0.5
+        //         },2000).animate({
+        //             // marginLeft: 200,
+        //             marginTop: 200,
+        //             height: 300,
+        //             width: 300,
+        //             opacity: 1
+        //         },2000)
+        //   })
+        
+        // 22222
+        
+    //     $( document ).ready(function() {
+    //             $(".fly_box").animate({	// запускається анімація
+				// 	    marginLeft: 300,
+				// 		marginTop: 300
+				// 		},{
+    //                     duration:2000, 
+    //                     queue:false, // черга
+    //                     specialEasing:{ // ефект
+    //                         height:"slideToggle()",
+    //                         width:"swing"
+    //                     },
+    //                     complete:function(){
+    //                          $(".fly_box_text").text("Complete!");
+    //                           $(".fly_box").css({
+    //                               "transform": "rotate(" + 45 + "deg)",
+    //                               "height": 150,
+				// 		           "width": 250
+    //                           })
+    //                     }
+    //             })
+    //     })
+            
+            
+            // $(document).ready(function(){
+            // $(".moon").animate({
+            //     marginTop : -150,
+            //     marginLeft : 700,
+            // }, {
+            //     duration:3000,
+            //     queue:false,
+            //     specialEasing: {
+            //          marginTop: "linear",
+            //          marginLeft: "linear"
+            //     },
+            //     complete: function() {
+            //      $(".land img").css( "zIndex", "1");
+            //      $(".moon").animate({
+            //         marginTop : 200,
+            //         marginLeft : 50,
+            //      },{
+            //         duration:3000,
+            //         queue:false,
+                    
+            //      });
+                  
+            //     }
+        
+            // });
+            // });
+        
+        // 44444
+        
+        
+        
+        
+        
+        </script>
+        
+        
+    </body>
+</html>
